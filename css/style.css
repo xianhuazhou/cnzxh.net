@@ -72,6 +72,7 @@ a:hover, a:focus {
 	font-size: 1.4em; /* 14px equiv */
 	margin: 0 auto;
 	text-align: left;
+    margin-top: 80px;
 	width: 472px;
 	}
 #header {
@@ -166,7 +167,7 @@ a:hover, a:focus {
 
 div#footer {
 	clear: both;
-	color: #A0C4C9;
+	color: #dcd9cd;
 	line-height: 1.6em;
 	padding: 0 12px 72px;
 	}
@@ -813,4 +814,16 @@ tbody td.pad {
 .widget_calendar tbody td a {
 	color: #719DA3;
 }
+
+ul#footerlinks {
+    color: #dcd9cd;
+}
+
+ul#footerlinks li a {
+	color: #dcd9cd;
+}
+ul#footerlinks li a:hover {
+    color: #fbf3d1;
+}
+
 /* @end */
